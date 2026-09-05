@@ -93,15 +93,15 @@ async function gql(token, query, variables) {
   return body.data;
 }
 
-// Public-only selection. `name` is part of the profile contract but is never rendered —
+// Public-only selection, trimmed to what the card renders. `name` and `gists` were removed:
+// gists is a user-level resource the Actions GITHUB_TOKEN cannot read (Resource not accessible
+// by integration), and neither value was ever drawn.
 // the card stays anonymous by design.
 const PROFILE_QUERY = `
 query Profile($login: String!, $after: String) {
   user(login: $login) {
-    name
     createdAt
     followers { totalCount }
-    gists(privacy: PUBLIC) { totalCount }
     contributionsCollection {
       totalCommitContributions
       totalPullRequestContributions
@@ -197,7 +197,6 @@ function summarize(user, repos, allTime) {
     stars,
     forks,
     repos: user.repositories.totalCount,
-    gists: user.gists.totalCount,
     followers: user.followers.totalCount,
     sinceYear: allTime.years[0],
     contribYear: cc.contributionCalendar.totalContributions,
@@ -370,7 +369,7 @@ ${parts.join('\n')}
 function summaryLine(login, s) {
   const langs = s.langs.map((l) => `${l.name} ${pct(l.share)}`).join(', ') || 'none';
   return (
-    `${login}: stars=${s.stars} forks=${s.forks} repos=${s.repos} gists=${s.gists} followers=${s.followers} ` +
+    `${login}: stars=${s.stars} forks=${s.forks} repos=${s.repos} followers=${s.followers} ` +
     `contrib12m=${s.contribYear} (commits=${s.commitsYear} prs=${s.prsYear} issues=${s.issuesYear}) ` +
     `allTime=${s.contribAllTime} since=${s.sinceYear} langs=[${langs}]`
   );
