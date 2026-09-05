@@ -1,7 +1,8 @@
 <!--
   mreza0100 — profile README.
-  Every visual here is generated inside this repo by GitHub Actions with the default
-  GITHUB_TOKEN and served as a static SVG: no rented widget instances that can 503.
+  The four big visuals are generated inside this repo by GitHub Actions with the default
+  GITHUB_TOKEN and served as static SVGs, so no rented widget instance can 503 them.
+  (The small badges are external: shields.io, skillicons.dev, komarev.)
     assets/hero-*.svg            scripts/hero.mjs — isometric contribution terrain on a
                                  liquid-glass backdrop, refracted through the pane. Hand-written SVG.
     assets/stats-*.svg           scripts/stats.mjs   -> .github/workflows/stats.yml
@@ -187,5 +188,5 @@ find › type project or name                                                   
 <br/>
 
 <div align="center">
-<sub>Every graphic on this page is generated in-repo by GitHub Actions and committed as a static SVG — no third-party widget servers to go dark.</sub>
+<sub>The banner, stats card, 3D graph and snake are generated in this repo by GitHub Actions and committed as static SVGs — the badges are the only rented pixels.</sub>
 </div>

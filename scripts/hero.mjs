@@ -313,7 +313,7 @@ function render(login, data, themeName) {
   <!-- the terrain, captioned -->
   <text x="${W - 60}" y="60" class="mono fade d1" font-size="12" letter-spacing="3" text-anchor="end" fill="${t.kicker}">THE LAST YEAR, EXTRUDED</text>
   <text x="${W - 60}" y="94" class="sans fade d2" font-size="30" font-weight="700" text-anchor="end" fill="${t.paneInk}">${data.total.toLocaleString('en-US')} contributions</text>
-  <text x="${W - 60}" y="${H - 30}" class="mono fade d3" font-size="11" text-anchor="end" fill="${t.muted}">every block is a day · every pixel drawn by this repo</text>
+  <text x="${W - 60}" y="${H - 30}" class="mono fade d3" font-size="11" text-anchor="end" fill="${t.muted}">every block is a day · redrawn daily from the contribution graph</text>
 </svg>
 `;
 }

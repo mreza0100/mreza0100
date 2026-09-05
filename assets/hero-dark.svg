@@ -152,5 +152,5 @@
   <!-- the terrain, captioned -->
   <text x="1140" y="60" class="mono fade d1" font-size="12" letter-spacing="3" text-anchor="end" fill="#7dcfff">THE LAST YEAR, EXTRUDED</text>
   <text x="1140" y="94" class="sans fade d2" font-size="30" font-weight="700" text-anchor="end" fill="#e6edf3">905 contributions</text>
-  <text x="1140" y="410" class="mono fade d3" font-size="11" text-anchor="end" fill="#8b949e">every block is a day · every pixel drawn by this repo</text>
+  <text x="1140" y="410" class="mono fade d3" font-size="11" text-anchor="end" fill="#8b949e">every block is a day · redrawn daily from the contribution graph</text>
 </svg>
