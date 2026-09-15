@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="212" viewBox="0 0 495 212" role="img" aria-labelledby="card-title">
-  <title id="card-title">GitHub at a glance: 180 stars, 25 public repos, 1,031 contributions in the last 12 months, 1,520 all-time, 70 followers. Top languages: Go 59.1%, TypeScript 16.5%, JavaScript 10.5%, Rust 5.0%, Python 5.0%, HTML 3.9%.</title>
+  <title id="card-title">GitHub at a glance: 180 stars, 25 public repos, 1,040 contributions in the last 12 months, 1,529 all-time, 72 followers. Top languages: Go 59.5%, TypeScript 16.3%, JavaScript 10.4%, Python 5.0%, Rust 5.0%, HTML 3.9%.</title>
   <style>
     .card { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; }
     text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #1f2328; }
@@ -39,17 +39,17 @@
   <g class="row" style="animation-delay:0.55s">
     <g class="icon" transform="translate(20 114)"><path d="M1.5 8h3.7M10.8 8h3.7M8 5.2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6z"/></g>
     <text class="label" x="44" y="126">Contributions, last 12 months</text>
-    <text class="num" x="246" y="126" text-anchor="end">1,031</text>
+    <text class="num" x="246" y="126" text-anchor="end">1,040</text>
   </g>
   <g class="row" style="animation-delay:0.75s">
     <g class="icon" transform="translate(20 142)"><path d="M1.5 14.5h13M4.5 12V8M8 12V3.5M11.5 12V6"/></g>
     <text class="label" x="44" y="154">Contributions, all-time</text>
-    <text class="num" x="246" y="154" text-anchor="end">1,520</text>
+    <text class="num" x="246" y="154" text-anchor="end">1,529</text>
   </g>
   <g class="row" style="animation-delay:0.95s">
     <g class="icon" transform="translate(20 170)"><path d="M5.5 2.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM1.5 13.5a4 4 0 0 1 8 0M10.5 3a2.2 2.2 0 0 1 0 4.2M12.2 9.6a3.6 3.6 0 0 1 2.3 3.9"/></g>
     <text class="label" x="44" y="182">Followers</text>
-    <text class="num" x="246" y="182" text-anchor="end">70</text>
+    <text class="num" x="246" y="182" text-anchor="end">72</text>
   </g>
   <g class="row" style="animation-delay:0.15s">
     <g class="icon" transform="translate(264 58)"><path d="M5.5 4.5L2 8l3.5 3.5M10.5 4.5L14 8l-3.5 3.5M9.5 2.5l-3 11"/></g>
@@ -57,32 +57,32 @@
   </g>
   <rect class="track" x="264" y="88" width="211" height="8" rx="4"/>
   <g clip-path="url(#bar-clip)">
-    <rect class="seg" x="264.00" y="88" width="125.14" height="8" fill="#00ADD8" style="animation-delay:0.35s"/>
-    <rect class="seg" x="388.64" y="88" width="35.26" height="8" fill="#3178c6" style="animation-delay:0.41s"/>
-    <rect class="seg" x="423.39" y="88" width="22.70" height="8" fill="#f1e05a" style="animation-delay:0.47s"/>
-    <rect class="seg" x="445.59" y="88" width="11.13" height="8" fill="#dea584" style="animation-delay:0.53s"/>
-    <rect class="seg" x="456.22" y="88" width="11.02" height="8" fill="#3572A5" style="animation-delay:0.59s"/>
-    <rect class="seg" x="466.74" y="88" width="8.26" height="8" fill="#e34c26" style="animation-delay:0.65s"/>
+    <rect class="seg" x="264.00" y="88" width="126.04" height="8" fill="#00ADD8" style="animation-delay:0.35s"/>
+    <rect class="seg" x="389.54" y="88" width="34.83" height="8" fill="#3178c6" style="animation-delay:0.41s"/>
+    <rect class="seg" x="423.86" y="88" width="22.44" height="8" fill="#f1e05a" style="animation-delay:0.47s"/>
+    <rect class="seg" x="445.80" y="88" width="11.04" height="8" fill="#3572A5" style="animation-delay:0.53s"/>
+    <rect class="seg" x="456.34" y="88" width="11.00" height="8" fill="#dea584" style="animation-delay:0.59s"/>
+    <rect class="seg" x="466.84" y="88" width="8.16" height="8" fill="#e34c26" style="animation-delay:0.65s"/>
   </g>
   <g class="row" style="animation-delay:0.55s">
     <circle cx="267.5" cy="122.5" r="3.5" fill="#00ADD8"/>
-    <text class="legend" x="275" y="126">Go<tspan class="pct" dx="4">59.1%</tspan></text>
+    <text class="legend" x="275" y="126">Go<tspan class="pct" dx="4">59.5%</tspan></text>
   </g>
   <g class="row" style="animation-delay:0.55s">
     <circle cx="377" cy="122.5" r="3.5" fill="#3178c6"/>
-    <text class="legend" x="384.5" y="126">TypeScript<tspan class="pct" dx="4">16.5%</tspan></text>
+    <text class="legend" x="384.5" y="126">TypeScript<tspan class="pct" dx="4">16.3%</tspan></text>
   </g>
   <g class="row" style="animation-delay:0.75s">
     <circle cx="267.5" cy="150.5" r="3.5" fill="#f1e05a"/>
-    <text class="legend" x="275" y="154">JavaScript<tspan class="pct" dx="4">10.5%</tspan></text>
+    <text class="legend" x="275" y="154">JavaScript<tspan class="pct" dx="4">10.4%</tspan></text>
   </g>
   <g class="row" style="animation-delay:0.75s">
-    <circle cx="377" cy="150.5" r="3.5" fill="#dea584"/>
-    <text class="legend" x="384.5" y="154">Rust<tspan class="pct" dx="4">5.0%</tspan></text>
+    <circle cx="377" cy="150.5" r="3.5" fill="#3572A5"/>
+    <text class="legend" x="384.5" y="154">Python<tspan class="pct" dx="4">5.0%</tspan></text>
   </g>
   <g class="row" style="animation-delay:0.95s">
-    <circle cx="267.5" cy="178.5" r="3.5" fill="#3572A5"/>
-    <text class="legend" x="275" y="182">Python<tspan class="pct" dx="4">5.0%</tspan></text>
+    <circle cx="267.5" cy="178.5" r="3.5" fill="#dea584"/>
+    <text class="legend" x="275" y="182">Rust<tspan class="pct" dx="4">5.0%</tspan></text>
   </g>
   <g class="row" style="animation-delay:0.95s">
     <circle cx="377" cy="178.5" r="3.5" fill="#e34c26"/>
